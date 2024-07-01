@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    color:black;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+.top-bar span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.top-links {
+    margin: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.top-links a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.top-links a img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.navbar {
+    background-color: #444;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.profile img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.contact-info h2 {
+    color: rgb(98, 222, 231);
+    margin: 0;
+}
+
+.contact-info h3 {
+    color: rgb(98, 222, 231);
+    margin: 5px 0;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info p img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    border-bottom: 1px solid #555;
+    padding-bottom: 10px;
+}
+
+.footer-section p {
+    margin: 10px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #555;
+    margin-top: 20px;
+    padding-top: 10px;
+}
